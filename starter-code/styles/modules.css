@@ -15,7 +15,7 @@
 }
 
 .main-nav ul {
-  display: none;
+  display: block;
   padding: 0;
   list-style: none;
   clear: both;
@@ -29,7 +29,7 @@
   margin-right: .4em;
   font-size: 1.5em;
   padding: .5em .2em;
-  border-bottom: 1px solid #ccc;
+  display: inline;
 }
 
 #filters {
@@ -80,4 +80,5 @@ label[for="nav-trigger"] {
          - Hide the hamburger.
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
+
 /* @media only screen... */
